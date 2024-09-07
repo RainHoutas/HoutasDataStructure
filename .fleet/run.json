@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Build",
+            "program": "cmake",
+            "args": ["--build", "$PROJECT_DIR$/cmake-build-debug", "--target", "program_name"],
+        },
+        {
+            "type": "command",
+            "name": "Run",
+            "program": "$PROJECT_DIR$/cmake-build-debug/program_name",
+        },
+    ]
+}
