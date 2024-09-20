@@ -74,6 +74,40 @@ build hello_world.c.exe: C_EXECUTABLE_LINKER__hello_world.2ec_Debug CMakeFiles/h
   TARGET_IMPLIB = libhello_world.c.dll.a
   TARGET_PDB = hello_world.c.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target listplus.c
+
+
+#############################################
+# Order-only phony target for listplus.c
+
+build cmake_object_order_depends_target_listplus.c: phony || .
+
+build CMakeFiles/listplus.c.dir/listplus.c.obj: C_COMPILER__listplus.2ec_unscanned_Debug D$:/Windows/代码项目/数据结构作业/listplus.c || cmake_object_order_depends_target_listplus.c
+  DEP_FILE = CMakeFiles\listplus.c.dir\listplus.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -ID:/Windows/代码项目/数据结构作业/.
+  OBJECT_DIR = CMakeFiles\listplus.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\listplus.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target listplus.c
+
+
+#############################################
+# Link the executable listplus.c.exe
+
+build listplus.c.exe: C_EXECUTABLE_LINKER__listplus.2ec_Debug CMakeFiles/listplus.c.dir/listplus.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\listplus.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = listplus.c.exe
+  TARGET_IMPLIB = liblistplus.c.dll.a
+  TARGET_PDB = listplus.c.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -102,6 +136,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build hello_world.c: phony hello_world.c.exe
 
+build listplus.c: phony listplus.c.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -110,7 +146,7 @@ build hello_world.c: phony hello_world.c.exe
 #############################################
 # Folder: D:/Windows/代码项目/数据结构作业/cmake-build-debug
 
-build all: phony hello_world.c.exe
+build all: phony hello_world.c.exe listplus.c.exe
 
 # =============================================================================
 # Built-in targets

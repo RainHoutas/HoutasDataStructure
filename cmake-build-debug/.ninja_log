@@ -1,3 +1,6 @@
 # ninja log v6
-4	435	7473908635900000	CMakeFiles/hello_world.c.dir/hello_world.c.obj	508c825e1bb19e68
+14	1387	7485072105000000	CMakeFiles/hello_world.c.dir/hello_world.c.obj	508c825e1bb19e68
 439	806	7473908660000000	hello_world.c.exe	db3d13fbb666fda0
+121	1396	7485072120000000	CMakeFiles/hello_world.c.dir/listplus.c.obj	2c105f7e2d63eaf7
+3	198	7485075305500000	CMakeFiles/listplus.c.dir/listplus.c.obj	738a11386713552b
+200	1271	7485075320000000	listplus.c.exe	64394a0263aebbb1
