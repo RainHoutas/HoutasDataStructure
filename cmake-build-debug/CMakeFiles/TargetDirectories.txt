@@ -1,4 +1,5 @@
-D:/Windows/代码项目/数据结构作业/cmake-build-debug/CMakeFiles/hello_world.c.dir
-D:/Windows/代码项目/数据结构作业/cmake-build-debug/CMakeFiles/listplus.c.dir
-D:/Windows/代码项目/数据结构作业/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Windows/代码项目/数据结构作业/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Houtas/CLionProjects/HoutasDataStructure/cmake-build-debug/CMakeFiles/hello_world.c.dir
+C:/Users/Houtas/CLionProjects/HoutasDataStructure/cmake-build-debug/CMakeFiles/listplus.c.dir
+C:/Users/Houtas/CLionProjects/HoutasDataStructure/cmake-build-debug/CMakeFiles/third.c.dir
+C:/Users/Houtas/CLionProjects/HoutasDataStructure/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Houtas/CLionProjects/HoutasDataStructure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
